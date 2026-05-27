@@ -1,0 +1,336 @@
+body {
+  background-color: #f1f1f1;
+  color: black;
+  font-family: Times;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  margin: 0;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-size: 20px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 0;
+}
+button {
+  margin-top: 20px;
+
+  padding: 12px 24px;
+
+  font-size: 18px;
+
+  border: none;
+
+  background-color: black;
+
+  color: white;
+
+  cursor: pointer;
+
+  border-radius: 10px;
+}
+nav {
+  position: absolute;
+
+  top: 20px;
+
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 40px;
+}
+nav a {
+  text-decoration: none;
+
+  color: black;
+
+  font-size: 18px;
+
+  font-weight: bold;
+}
+.photo {
+  position: absolute;
+
+  width: 220px;
+
+  border: 4px solid black;
+}
+.photo1 {
+  top: 120px;
+  left: 80px;
+
+  transform: rotate(-15deg);
+}
+
+.photo2 {
+  top: 150px;
+  right: 100px;
+
+  transform: rotate(12deg);
+}
+
+.photo3 {
+  bottom: 80px;
+  left: 200px;
+}
+.photo:hover {
+  transform: scale(1.05);
+}
+/* ID CARD */
+
+.card {
+  flex-shrink: 0;
+}
+
+
+/* BLACK CLIP THING */
+
+.clip {
+  width: 80px;
+
+  height: 120px;
+
+  background-color: black;
+
+  margin: auto;
+}
+
+/* MAIN CARD */
+
+.id-card {
+  width: 250px;
+
+  padding: 30px;
+
+  background-color: white;
+
+  border: 20px solid #0047AB;
+
+  text-align: center;
+}
+
+
+/* IMAGE */
+
+.photo-box {
+  width: 190px;
+
+  height: 240px;
+
+  object-fit: cover;
+
+  display: block;
+
+  margin: 30px auto;
+
+  background-color: #d9d9d9;
+}
+
+
+/* TEXT */
+
+.id-card h2 {
+  font-size: 30px;
+
+  margin-top: 10px;
+}
+
+.id-card h3 {
+  font-size: 45px;
+
+  margin-bottom: 0;
+}
+
+.id-card p {
+  font-size: 24px;
+
+  margin-top: 5px;
+}
+/* ABOUT PAGE */
+
+.about-container {
+  display: flex;
+  flex-direction: row; /* ADD THIS */
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+  min-height: 100vh;
+  padding: 80px;
+  box-sizing: border-box;
+}
+
+/* CARD */
+
+.card {
+  flex-shrink: 0;
+}
+
+
+/* RIGHT SIDE */
+
+.about-text {
+  max-width: 700px;
+}
+
+
+/* TITLE */
+
+.about-text h1 {
+  font-size: 90px;
+
+  margin-bottom: 30px;
+
+  line-height: 1;
+}
+
+
+/* PARAGRAPH */
+
+.about-text p {
+  font-size: 20px;
+
+  line-height: 1.6;
+}
+
+span.about-buttons {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+/* NEW PAGE */
+
+.new-page {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 100vh;
+}
+
+
+/* TITLE */
+
+.new-page h1 {
+  font-size: 60px;
+
+  margin-bottom: 40px;
+}
+
+
+/* BUTTONS */
+
+.new-page button {
+  width: 420px;
+
+  padding: 18px;
+
+  margin: 10px 0;
+
+  font-size: 28px;
+
+  font-family: Times;
+
+  background-color: black;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 14px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+
+/* HOVER EFFECT */
+
+.new-page button:hover {
+  transform: scale(1.03);
+}
+.graphic-page {
+  background-image: url("logo.jpg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+}
+.white_colour{
+  color: #FFFFFF
+}
+.graphic-page {
+  background-color: #f1f1f1;
+
+  font-family: Times;
+
+  padding: 60px;
+}
+
+
+/* TITLE */
+
+.graphic-page h1 {
+  text-align: center;
+
+  font-size: 60px;
+
+  margin-bottom: 50px;
+}
+
+
+/* GALLERY */
+
+.gallery {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 40px;
+
+  flex-wrap: wrap;
+}
+
+
+/* IMAGES */
+
+.gallery img {
+  width: 450px;
+
+  height: 300px;
+
+  object-fit: cover;
+
+  transition: 0.3s;
+}
+
+
+/* HOVER */
+
+.gallery img:hover {
+  transform: scale(1.02);
+}
